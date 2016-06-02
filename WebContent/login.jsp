@@ -35,9 +35,8 @@ if((boolean)request.getAttribute("theerror") == false){
 }}%>
 <body background = "C:/Users/dyuthi/Documents/Coding/bg3.jpg">
 
-<form action="Patientservlet" method = "GET" class = "movedown">
+<form action="Patientservlet" method = "POST" class = "movedown">
 
-<input type = "hidden" name = "register" value = "login"/>
 <div id = "loginheader" align = "center"><i><strong>SAINATH HOSPITAL EMPLOYEE LOGIN</strong></i><br/></div>
 <div class = "loginpage" align = "center">
 <table>
